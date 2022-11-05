@@ -46,9 +46,8 @@ void add() {
 	printf("Enter the second value:");
 	scanf_s("%lf", &num2);
 	result = num1 + num2;
-	printf("%lf + %lf = %lf\n", num1, num2, result);
+	printf("%.2f + %.2f = %.2f\n", num1, num2, result);
 }
-
 
 
 void subtract() {
